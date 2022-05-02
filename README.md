@@ -5,7 +5,7 @@ For a collection of visualizations of a dataset, the method provides a quantitat
 
 # Content
 
-The R script `main_function.R` contains the main functions for producing multiple data visualizations and the meta-visualization.
+The R script `main_function.R` contains the main functions for producing multiple data visualizations, their eigenscores, and the meta-visualization.
 
 The directory `Data` contains several example datasets for demonstrating our methods.
 
