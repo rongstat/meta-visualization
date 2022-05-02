@@ -13,7 +13,7 @@ The directory `R Codes` includes R scripts for analyzing the example datasets.
 
 # Get Started
 
-To apply our method to an example dataset, follow the three step below.
+To apply our method to an example dataset, follow the three steps below.
 
 1. Download the dataset `AllBooks_baseline_DTM_Labelled.csv` from the directory `Data`. 
 2. Run the R script `main_function.R`.
