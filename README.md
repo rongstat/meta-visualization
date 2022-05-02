@@ -11,7 +11,7 @@ The directory `Data` contains several example datasets for demonstrating our met
 
 The directory `R Codes` includes R scripts for analyzing the example datasets.
 
-# Use Guide
+# Get Started
 
 To apply our method to an example dataset, follow the three step below.
 
