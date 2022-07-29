@@ -13,7 +13,7 @@ The R script `main_function.R` contains the main functions for producing multipl
 
 The directory `Data` contains several example datasets for demonstrating our methods.
 
-The directory `R Codes` includes R scripts for analyzing the example datasets.
+The directory `R Codes` includes R scripts for analyzing the example datasets, and for reproducing the data analysis in the manuscript.
 
 The directory `Python Code` includes Python implementation of the method.
 
