@@ -20,12 +20,12 @@ The meta-visualization package requires only a standard computer with enough RAM
 RAM: 16+ GB
 CPU: 4+ cores, 3.3+ GHz/core
 
-The R functions are tested under R version 4.1.1, and require the R packages: 'rARPACK','MASS','lle','dimRed','uwot','cluster','Rtsne','phateR.'
+The R functions are tested under R version 4.1.1, and require the R packages: `rARPACK`,`MASS`,`lle`,`dimRed`,`uwot`,`cluster`,`Rtsne`,`phateR`.
 
 
 # Get Started
 
-The main functions for meta-visualization are contained in `main_function.R`. The function 'candidate.visual()' helps to produce diverse candidate visualizations based on our choice of dimension reduction methods. The users can also generate candidate visualizations on their own. The function 'ensemble.v.local()' takes the candidates visualizations as inputs and returns their eigenscores and a final meta-visualization.
+The main functions for meta-visualization are contained in `main_function.R`. The function `candidate.visual()` helps to produce diverse candidate visualizations based on our choice of dimension reduction methods. The users can also generate candidate visualizations on their own. The function `ensemble.v.local()` takes the candidates visualizations as inputs and returns their eigenscores and a final meta-visualization.
 
 To apply our method to an example dataset, follow the three steps below.
 
