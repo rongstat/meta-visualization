@@ -1,7 +1,11 @@
 # meta-visualization
 A spectral method for assessing and combining multiple data visualizations.
 
-For a collection of visualizations of a dataset, the method provides a quantitative measure -- eigenscore -- of relative performance of each visualization in a pointwise manner, which induces a ranking of these visualizations in terms of their concordance to the underlying true structures of the data. On the other hand, the method automatically combines strengths and ameliorates weakness of multiple visualizations, leading to a meta-visualization which is  provably better than all the candidate visualizations. 
+We present an effcient spectral method for assessing and combining multiple visualizations of a given dataset produced by diverse algorithms. The proposed method provides a quantitative measure -- the visualization eigenscore -- of the relative performance of the visualizations for preserving the structure around each data point. Then it leverages the eigenscores to obtain a consensus visualization, which has much improved quality over the individual visualizations in capturing the underlying true data structure. Our approach is flexible and works as a wrapper around any visualizations.
+
+The method is based on the paper:
+
+Ma, R., Sun, E., and Zou, J. (2022) A Spectral Method for Assessing and Combining Multiple Data Visualizations. 
 
 # Content
 
