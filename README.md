@@ -20,7 +20,7 @@ The meta-visualization package requires only a standard computer with enough RAM
 RAM: 16+ GB
 CPU: 4+ cores, 3.3+ GHz/core
 
-The R functions are tested under R version 4.1.1, and require the R packages: `rARPACK`,`MASS`,`lle`,`dimRed`,`uwot`,`cluster`,`Rtsne`,`phateR`.
+The R implementation of the methood are tested under R version 4.1.1, and require the R packages: `rARPACK`,`MASS`,`lle`,`dimRed`,`uwot`,`cluster`,`Rtsne`,`phateR`.
 
 
 # Get Started
