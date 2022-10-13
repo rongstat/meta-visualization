@@ -9,7 +9,7 @@ Ma, R., Sun, E., and Zou, J. (2022) A Spectral Method for Assessing and Combinin
 
 # Content
 
-The R script `main_function.R` contains the main functions for producing multiple data visualizations, their eigenscores, and the meta-visualization.
+The R script `main_fun.R` contains the main functions for producing multiple data visualizations, their eigenscores, and the meta-visualization.
 
 The directory `Data` contains several example datasets for demonstrating our methods.
 
@@ -34,7 +34,7 @@ The main functions for meta-visualization are contained in `main_function.R`. Th
 To apply our method to an example dataset, follow the three steps below.
 
 1. Download the dataset `AllBooks_baseline_DTM_Labelled.csv` from the directory `Data`. 
-2. Load the R script `main_function.R`.
+2. Load the R script `main_function.R` in the directory `R Codes`.
 3. Run the R script `ReligionText.R` in the directory `R Codes`.
 
 
