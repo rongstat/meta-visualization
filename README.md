@@ -29,7 +29,7 @@ The R implementation of the method are tested under R version 4.1.1, and require
 
 # Get Started
 
-The main functions for meta-visualization are contained in `main_function.R`. The function `candidate.visual()` helps to produce diverse candidate visualizations based on our choice of dimension reduction methods. The users can also generate candidate visualizations on their own. The function `ensemble.v.local()` takes the candidates visualizations as inputs and returns their eigenscores and a final meta-visualization.
+The main functions for meta-visualization are contained in `main_fun.R`. The function `candidate.visual()` helps to produce diverse candidate visualizations based on our choice of dimension reduction methods. The users can also generate candidate visualizations on their own. The function `ensemble.viz()` takes the candidates visualizations as inputs and returns their eigenscores and a final meta-visualization.
 
 To apply our method to an example dataset, follow the three steps below.
 
@@ -37,6 +37,6 @@ To apply our method to an example dataset, follow the three steps below.
 2. Load the R script `main_function.R` in the directory `R Codes`.
 3. Run the R script `ReligionText.R` in the directory `R Codes`.
 
-
+Note that the main difference between the function `ensemble.viz()` in `main_fun.R` and the function `ensemble.v.local` in `main_function.R` is whether the pairwise distance matrices for the candidate visualizations are returned. For general applications, we recommend `ensemble.viz()` in `main_fun.R` as it requires less memory, especially for large datasets.
 
 For further questions and inquiries, please contact Rong Ma (rongm@stanford.edu).
