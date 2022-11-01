@@ -8,7 +8,6 @@
 ######################################################
 
 #load packages
-install.packages(c("rARPACK","MASS","lle","dimRed","uwot","cluster","Rtsne","phateR"))
 library(rARPACK)
 library(MASS)
 library(lle)
@@ -184,7 +183,7 @@ candidate.visual <- function(data, dim=2, methods= c("PCA", "MDS", "iMDS", "Samm
   
   
   
-  return(list(dim.red.data, name.method))
+  return(list(embed.list=dim.red.data, method_name=name.method))
 }
 
 
