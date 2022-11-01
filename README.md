@@ -39,6 +39,6 @@ To apply our method to an example dataset, follow the three steps below.
 
 Note that the main difference between the function `ensemble.viz()` in `main_fun.R` and the function `ensemble.v.local()` in `main_function.R` is whether the pairwise distance matrices for the candidate visualizations are returned. For general applications, we recommend `ensemble.viz()` in `main_fun.R` as it requires less memory, especially for large datasets.
 
-For a **quick guide to meta-visualization in R**, please check out https://rongstat.github.io/metaviz_guide.io/user_guide.html.
+Alternatively, for a **quick guide to meta-visualization in R**, please check out https://rongstat.github.io/metaviz_guide.io/user_guide.html.
 
 For further questions and inquiries, please contact Rong Ma (rongm@stanford.edu).
