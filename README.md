@@ -41,4 +41,6 @@ Note that the main difference between the function `ensemble.viz()` in `main_fun
 
 Alternatively, for a **quick guide to meta-visualization in R**, please check out https://rongstat.github.io/metaviz_guide.io/user_guide.html.
 
+For the Python implementation, please see the tutorial notebook `Python Code/usage.ipynb`. To run meta-visualization on your data, move `Python Code/meta_visualization.py` to your working directory and import using: `from meta_visualization import meta_viz`. Currently, the only dependencies are `numpy`, `scikit-learn`, and `scipy`. The Python implementation should be runnable for any Python 3-compatible versions of these libraries.
+
 For further questions and inquiries, please contact Rong Ma (rongm@stanford.edu).
