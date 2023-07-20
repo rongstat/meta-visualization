@@ -5,7 +5,7 @@ We present an effcient spectral method for assessing and combining multiple visu
 
 The method is based on the paper:
 
-Ma, R., Sun, E., and Zou, J. (2022) A Spectral Method for Assessing and Combining Multiple Data Visualizations. 
+Ma, R., Sun, E., and Zou, J. (2023) A Spectral Method for Assessing and Combining Multiple Data Visualizations. Nature Communications
 
 # Content
 
